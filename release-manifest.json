@@ -1,25 +1,40 @@
 {
   "product": "FsBlockLibrary",
-  "productVersion": "1.0.0",
   "releaseTag": "v1.0.0",
-  "packageKind": "release-artifact-set",
+  "version": "1.0.0",
+  "generatedAtUtc": "2026-07-05T16:55:56.4488146Z",
   "sourceRepository": "FeiSiLabs/FsBlockLibrary",
-  "sourceCommit": "bac659a",
+  "sourceCommit": "e5221e5",
   "releaseRepository": "FeiSiPub/FsBlockLibraryReleases",
-  "generatedAtUtc": "2026-07-05T16:02:39.5525266Z",
-  "artifacts": [
+  "packages": [
     {
       "name": "FsBlockLibrary-v1.0.0-x64.msi",
-      "size": 9780160,
-      "sha256": "628b9767c6c15055e9bc57bde8b91d23f79ea5252adec66344d8c39b6bda6c55"
+      "size": 7535552,
+      "sha256": "417ff77acde59291df35323718f0ac8ccfad1a51250a66b9563c71c36197de21"
     },
     {
       "name": "FsBlockLibrary-v1.0.0-portable-x64.zip",
-      "size": 9649988,
-      "sha256": "4e9f717c4c32bace54baf10d0c9970d3d12b302e485dd6017f7778ca9b451520"
+      "size": 7398672,
+      "sha256": "1414256d3c68f9244a7931e85fa54952066ee04735a1d8f82280caef851f7d04"
     }
   ],
-  "embeddedManifests": {
+  "runtime": {
+    "entryPoint": "FsCadStarter.exe",
+    "supportedCad": [
+      "AutoCAD 2019",
+      "AutoCAD 2021",
+      "AutoCAD 2025",
+      "AutoCAD 2027"
+    ],
+    "directories": [
+      "x64_AC_2019_Release",
+      "x64_AC_2021_Release",
+      "x64_AC_2025_Release",
+      "x64_AC_2027_Release"
+    ],
+    "firstRunUi": "Screen menu and AutoCAD toolbar are enabled by default unless overridden by %APPDATA%\\FsBlockLibrary\\FsScreenMenu.user.json."
+  },
+  "packageManifests": {
     "msi": {
       "product": "FsBlockLibrary",
       "productVersion": "1.0.0",
@@ -42,9 +57,9 @@
       "entryPoint": "FsCadStarter.exe",
       "installDir": "%ProgramFiles%\\FsBlockLibrary",
       "userConfig": "%APPDATA%\\FsBlockLibrary\\FsBlockLibrary.ini",
-      "sourceCommit": "bac659a",
+      "sourceCommit": "e5221e5",
       "releaseRepository": "FeiSiPub/FsBlockLibraryReleases",
-      "generatedAtUtc": "2026-07-05T16:01:39.5952121Z",
+      "generatedAtUtc": "2026-07-05T16:54:27.53941Z",
       "notes": [
         "MSI installer for AutoCAD 2019-2027 x64.",
         "The installed entry point is FsCadStarter.exe.",
@@ -54,8 +69,8 @@
       "files": [
         {
           "path": "使用说明.md",
-          "size": 7514,
-          "sha256": "5d3a6d20e11e7ca559160b482bd9f111b6978bbbfa28110dba85eb02449ed887"
+          "size": 8775,
+          "sha256": "5fa7afaf2ce90a6506ee3bc5db3c2e17f2610a717fd7f359bee32589f12a9d20"
         },
         {
           "path": "Block/UserBlock/DefaultDevice.jpg",
@@ -64,8 +79,8 @@
         },
         {
           "path": "docs/user-guide.md",
-          "size": 7514,
-          "sha256": "5d3a6d20e11e7ca559160b482bd9f111b6978bbbfa28110dba85eb02449ed887"
+          "size": 8775,
+          "sha256": "5fa7afaf2ce90a6506ee3bc5db3c2e17f2610a717fd7f359bee32589f12a9d20"
         },
         {
           "path": "FsBlockLibrary.ini",
@@ -74,8 +89,8 @@
         },
         {
           "path": "FsCadStarter.exe",
-          "size": 11072000,
-          "sha256": "c0ab4bf41d4e8ec45cd2227cced7a215e132ac0ce904182110772210c7dd30ad"
+          "size": 2597888,
+          "sha256": "0dd72fc61b835609ac6b445686fb9906e54ea743a3e7f1b391b1ef02aad68b2e"
         },
         {
           "path": "FsCadStarter.ini",
@@ -114,8 +129,8 @@
         },
         {
           "path": "README.md",
-          "size": 4795,
-          "sha256": "15c2b447ab7e9007e45a3f1fec9a4ef21bfbd048b4d7bb2e324a6f494ac13941"
+          "size": 5077,
+          "sha256": "30083abadeb0ff1458d4f8af74397046d5f4d3d75298ee3c1fcb133e599bbd01"
         },
         {
           "path": "samples/FsBlockLibraryData/blocks/402115c4-ba67-43d0-a5ca-4529bf17da83/block.dwg",
@@ -624,7 +639,7 @@
         }
       ]
     },
-    "portableZip": {
+    "portable": {
       "product": "FsBlockLibrary",
       "productVersion": "1.0.0",
       "releaseTag": "v1.0.0",
@@ -645,9 +660,9 @@
       ],
       "entryPoint": "FsCadStarter.exe",
       "userConfig": "%APPDATA%\\FsBlockLibrary\\FsBlockLibrary.ini when package root is not writable",
-      "sourceCommit": "bac659a",
+      "sourceCommit": "e5221e5",
       "releaseRepository": "FeiSiPub/FsBlockLibraryReleases",
-      "generatedAtUtc": "2026-07-05T16:01:46.2242643Z",
+      "generatedAtUtc": "2026-07-05T16:54:43.1252146Z",
       "notes": [
         "Portable Starter runtime for AutoCAD 2019-2027 x64.",
         "Run FsCadStarter.exe from the extracted package root.",
@@ -657,8 +672,8 @@
       "files": [
         {
           "path": "使用说明.md",
-          "size": 7514,
-          "sha256": "5d3a6d20e11e7ca559160b482bd9f111b6978bbbfa28110dba85eb02449ed887"
+          "size": 8775,
+          "sha256": "5fa7afaf2ce90a6506ee3bc5db3c2e17f2610a717fd7f359bee32589f12a9d20"
         },
         {
           "path": "Block/UserBlock/DefaultDevice.jpg",
@@ -667,8 +682,8 @@
         },
         {
           "path": "docs/user-guide.md",
-          "size": 7514,
-          "sha256": "5d3a6d20e11e7ca559160b482bd9f111b6978bbbfa28110dba85eb02449ed887"
+          "size": 8775,
+          "sha256": "5fa7afaf2ce90a6506ee3bc5db3c2e17f2610a717fd7f359bee32589f12a9d20"
         },
         {
           "path": "FsBlockLibrary.ini",
@@ -677,8 +692,8 @@
         },
         {
           "path": "FsCadStarter.exe",
-          "size": 11072000,
-          "sha256": "c0ab4bf41d4e8ec45cd2227cced7a215e132ac0ce904182110772210c7dd30ad"
+          "size": 2597888,
+          "sha256": "0dd72fc61b835609ac6b445686fb9906e54ea743a3e7f1b391b1ef02aad68b2e"
         },
         {
           "path": "FsCadStarter.ini",
@@ -717,8 +732,8 @@
         },
         {
           "path": "README.md",
-          "size": 4795,
-          "sha256": "15c2b447ab7e9007e45a3f1fec9a4ef21bfbd048b4d7bb2e324a6f494ac13941"
+          "size": 5077,
+          "sha256": "30083abadeb0ff1458d4f8af74397046d5f4d3d75298ee3c1fcb133e599bbd01"
         },
         {
           "path": "samples/FsBlockLibraryData/blocks/402115c4-ba67-43d0-a5ca-4529bf17da83/block.dwg",
