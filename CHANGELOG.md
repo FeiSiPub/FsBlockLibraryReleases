@@ -6,6 +6,7 @@
 - 暂无。
 
 ## [v1.0.0] - 2026-07-04
+- 明确发布策略：永久免费、无功能限制，不设置试用期、授权码或付费解锁。
 - 发布 `FsBlockLibrary-v1.0.0-x64.msi` 正式安装包。
 - 发布 `FsBlockLibrary-v1.0.0-portable-x64.zip` 便携包，内含完整 Starter runtime。
 - 安装入口统一为“飞思图库启动器”，通过 Starter 选择 AutoCAD 2019-2027。
