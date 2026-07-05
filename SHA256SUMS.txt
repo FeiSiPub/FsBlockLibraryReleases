@@ -1,0 +1,2 @@
+628b9767c6c15055e9bc57bde8b91d23f79ea5252adec66344d8c39b6bda6c55  FsBlockLibrary-v1.0.0-x64.msi
+4e9f717c4c32bace54baf10d0c9970d3d12b302e485dd6017f7778ca9b451520  FsBlockLibrary-v1.0.0-portable-x64.zip

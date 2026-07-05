@@ -1,0 +1,1231 @@
+{
+  "product": "FsBlockLibrary",
+  "productVersion": "1.0.0",
+  "releaseTag": "v1.0.0",
+  "packageKind": "release-artifact-set",
+  "sourceRepository": "FeiSiLabs/FsBlockLibrary",
+  "sourceCommit": "bac659a",
+  "releaseRepository": "FeiSiPub/FsBlockLibraryReleases",
+  "generatedAtUtc": "2026-07-05T16:02:39.5525266Z",
+  "artifacts": [
+    {
+      "name": "FsBlockLibrary-v1.0.0-x64.msi",
+      "size": 9780160,
+      "sha256": "628b9767c6c15055e9bc57bde8b91d23f79ea5252adec66344d8c39b6bda6c55"
+    },
+    {
+      "name": "FsBlockLibrary-v1.0.0-portable-x64.zip",
+      "size": 9649988,
+      "sha256": "4e9f717c4c32bace54baf10d0c9970d3d12b302e485dd6017f7778ca9b451520"
+    }
+  ],
+  "embeddedManifests": {
+    "msi": {
+      "product": "FsBlockLibrary",
+      "productVersion": "1.0.0",
+      "releaseTag": "v1.0.0",
+      "package": "FsBlockLibrary-v1.0.0-x64.msi",
+      "packageKind": "all-in-one-msi",
+      "platform": "x64",
+      "acadVersions": [
+        "2019",
+        "2021",
+        "2025",
+        "2027"
+      ],
+      "buildConfigurations": [
+        "AC_2019_Release",
+        "AC_2021_Release",
+        "AC_2025_Release",
+        "AC_2027_Release"
+      ],
+      "entryPoint": "FsCadStarter.exe",
+      "installDir": "%ProgramFiles%\\FsBlockLibrary",
+      "userConfig": "%APPDATA%\\FsBlockLibrary\\FsBlockLibrary.ini",
+      "sourceCommit": "bac659a",
+      "releaseRepository": "FeiSiPub/FsBlockLibraryReleases",
+      "generatedAtUtc": "2026-07-05T16:01:39.5952121Z",
+      "notes": [
+        "MSI installer for AutoCAD 2019-2027 x64.",
+        "The installed entry point is FsCadStarter.exe.",
+        "Runtime module directories intentionally use x64_{Configuration}.",
+        "This MSI is currently unsigned."
+      ],
+      "files": [
+        {
+          "path": "使用说明.md",
+          "size": 7514,
+          "sha256": "5d3a6d20e11e7ca559160b482bd9f111b6978bbbfa28110dba85eb02449ed887"
+        },
+        {
+          "path": "Block/UserBlock/DefaultDevice.jpg",
+          "size": 7699,
+          "sha256": "9379fb282411410aeea0625c1c4461df69b0562caba57de467d0b4dd0bedfa67"
+        },
+        {
+          "path": "docs/user-guide.md",
+          "size": 7514,
+          "sha256": "5d3a6d20e11e7ca559160b482bd9f111b6978bbbfa28110dba85eb02449ed887"
+        },
+        {
+          "path": "FsBlockLibrary.ini",
+          "size": 429,
+          "sha256": "10aa3860e60941e752136725d64cb443dc3b60b7d6f153613d2130db734734bc"
+        },
+        {
+          "path": "FsCadStarter.exe",
+          "size": 11072000,
+          "sha256": "c0ab4bf41d4e8ec45cd2227cced7a215e132ac0ce904182110772210c7dd30ad"
+        },
+        {
+          "path": "FsCadStarter.ini",
+          "size": 810,
+          "sha256": "e1ec3ae3b6b61c87eeb7788a5c5408818ecf2e64f3243f27fcf12e204924ae38"
+        },
+        {
+          "path": "FsScreenMenu.ui.jsonc",
+          "size": 2732,
+          "sha256": "2d0142fe5c33225d4c16d2b552fe6efa1bf66563e43984f873daf72a28a2145d"
+        },
+        {
+          "path": "MenuIcon/insert.bmp",
+          "size": 1078,
+          "sha256": "e75d57c28e3e13f809a9017d8453298dd28ef5884baf9a7c8217f386cf1ea879"
+        },
+        {
+          "path": "MenuIcon/manage.bmp",
+          "size": 1078,
+          "sha256": "aaa11efa2d23050ccbb2f7a59d4ed9308ddeb60c6e67fae9d13b257d9fb811a5"
+        },
+        {
+          "path": "MenuIcon/README.md",
+          "size": 790,
+          "sha256": "fd5be46d790d9cb37db4cd3e2e1a32f202ec75715815382d541d887d88d69b53"
+        },
+        {
+          "path": "MenuIcon/update.bmp",
+          "size": 1078,
+          "sha256": "1127d2af50cf4cd77effb91dcf6b9ea01235b8b125e0e72e2a80c7b3c627b046"
+        },
+        {
+          "path": "MenuIcon/version.bmp",
+          "size": 1078,
+          "sha256": "79799c41c607f697767af635164c8c823afc70e4c1942c07ac2343c7877dd974"
+        },
+        {
+          "path": "README.md",
+          "size": 4795,
+          "sha256": "15c2b447ab7e9007e45a3f1fec9a4ef21bfbd048b4d7bb2e324a6f494ac13941"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/402115c4-ba67-43d0-a5ca-4529bf17da83/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/402115c4-ba67-43d0-a5ca-4529bf17da83/meta.json",
+          "size": 232,
+          "sha256": "231e63deedf0560d11422f58f6ddb6498c1a0b672337698794e697797fa3e489"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/402115c4-ba67-43d0-a5ca-4529bf17da83/thumb.jpg",
+          "size": 14454,
+          "sha256": "11d300af0acad32cfb577180b394d2dab6eb68fea20678acd2cc2d50108633e2"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/713e884e-95d7-45c2-9d54-1a357c695eae/block.dwg",
+          "size": 27501,
+          "sha256": "291d633da85db21735bf97d2de2fb1ca995e78ada9973159c41c1fa8978b389f"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/713e884e-95d7-45c2-9d54-1a357c695eae/meta.json",
+          "size": 234,
+          "sha256": "0188f4fab4b8b7906bd8fbabbda95ded74ee2aeffc817e6bceff978ef2b2cedb"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/713e884e-95d7-45c2-9d54-1a357c695eae/thumb.jpg",
+          "size": 14454,
+          "sha256": "570191349da0fcb8a3273afa2a7f52c79355db234cb9d4adfcaf19a49efe3e89"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-01-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-01-0000-4000-8000-000000000001/meta.json",
+          "size": 304,
+          "sha256": "bb1caa39e2a75cd0f3beab1a0cffcdabf12b21ad7446e648318b40832695456a"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-01-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4452,
+          "sha256": "2d573617fc8e3f6bf6bb1ffba769deda596c2439bf7e020990a9fbd7c98862a7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-02-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-02-0000-4000-8000-000000000001/meta.json",
+          "size": 304,
+          "sha256": "5e449b6c77fb53bc3c3cc12b77339d66f122ececd1a581037b346d2aef309f3a"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-02-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4690,
+          "sha256": "98b85787b1b3cad814b77d4eee28e9405cf157c43308bee7ee92abccec1d66b9"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-03-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-03-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "d69b8987d858c734569bc2e6b56737b96e672c756e97381ecac2cec455031610"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-03-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4708,
+          "sha256": "069859b1807bb1395825f5f653d4868ae76a3adb1ec04a9a35a49c860315db9c"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-04-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-04-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "5ca75031943a9a22aa75da8383f4b11c80f77b62a9d51d930a8a9fb25d97fda8"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-04-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4585,
+          "sha256": "362cea8387b7764cbdedd1809170d1d754e1fcc167580d27f47ec5a4dff67d43"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-05-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-05-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "bdcd0ee859c94bcb3ce1962440a0c13ef3f283ec06907eeaf49fb0e05cfbd9ed"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-05-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4745,
+          "sha256": "3bfc8ce0c5ec53dc1783d84056c463d21e45ced7f3ef7de5d81569d57c4fd1df"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-06-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-06-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "d1d4e91a24c04ca39ad67b33c1e49844186f0ae7d239084a92eae33bdecfbb9b"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-06-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4773,
+          "sha256": "67ce49d7a5e6ac09e9876e2906dc1c4a4d883e13000d3ce751a32fb3c16d6cee"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-07-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-07-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "2478b8148f39852b0772f2a03986d1d16af085f09c2f923bdd53a5ace39190b0"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-07-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4508,
+          "sha256": "c0e9c51eb9e3408903ddea7a2f3505dd56fb566e56762ce84e4f6647493491eb"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-08-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-08-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "6f5dcfc96c2c447824a076a35c13cbd769b0eec246d774ba448cb6da3f6c7690"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-08-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4749,
+          "sha256": "94f9bed4ad95301ca735a0cb6522cfcd37d21cc84676ed3c00054ea6f48b7a50"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-09-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-09-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "795dc58cf8c3ea73d6faf45697aaccd0062fc5053524c20c0870529faed94ba2"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-09-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4733,
+          "sha256": "3ee9a54390b9d0b530e48bdd72558b5a9ca3a3d06afba1f3dd6eedbfd6b52202"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-10-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-10-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "29561cc626468dc0c7a42542b584664a734aadc04051df061f3252771d615073"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-10-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4348,
+          "sha256": "72f726cae3140b628be9243507ebef31156048f9478af699d67bc73011958e54"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-11-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-11-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "6374794c73a9d86030fdc0bc31481b18990f122e9f19e253cb565bc6f21e76bb"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-11-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4141,
+          "sha256": "5c6a4e9f08017b5486fd4f5ac51e1469105251dc6432d5ae431660b30fa507fb"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-12-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-12-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "67f6563b5baf87ed0e1f19cf172abb89abafd5d1fd9f311af7e6205b1a5683fc"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-12-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4377,
+          "sha256": "3ede63eec643bd2a2f1647f2a974d52c33c9de913cd32edc6e1aa3be42ae8d72"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-13-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-13-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "d9576c9fda961a3b152dc96d142dd649f430d26d0c6f39e92dfabe294d5e5d73"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-13-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4406,
+          "sha256": "cc3fd110dbd728fc39307c7c7493ad224232c8741250422a4cf6283910783c08"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-14-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-14-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "f1b3a225ffb0dcad0d79af9c2c3b41d6933f2df9b88e5c4518a5cd76f6981733"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-14-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4278,
+          "sha256": "18c49b0fa77c091eb3eb81faacd234b0acde994e1341d5c1e47d9486c49e31a5"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-15-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-15-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "a97b73c680eb3774013ae5c6af7bdcaf1fe594aa26a55691200fccdbedf52c76"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-15-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4426,
+          "sha256": "583092b0ba71c5db1b57eca510a7481934716e54c3c82c03bc43e786344ebde2"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-16-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-16-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "88e4315cc42124c10e05efef56e04cf8eed5eda50ab6e84c955887234fd9f6a9"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-16-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4462,
+          "sha256": "068ae49cec25c856609d1556bbd812838d6556ba2dd2235cd81e200e55ee8b70"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-17-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-17-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "8112b632539f9747fec2866896b9ffb82e9e4011593b907c3cdcb0c3aa000116"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-17-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4192,
+          "sha256": "b2d5b5e57ae8617e406b9588bedb43154138d691214c28742de41174a5942298"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-18-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-18-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "ba112d08fa9066dfa77e8f7e7e4ec5510d7063b709b4ad89c1d0d4f26f9918f1"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-18-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4449,
+          "sha256": "8ba0c7ffd61f56a415df12340cb55f89be6005f0301eafc5dec2805dd5a6ac8d"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-19-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-19-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "d35d4d370d5d7fecefb361076dc57b9cb43b1b7fd0405ddfaaeb203bb073eb00"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-19-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4436,
+          "sha256": "1037c08f0109e88518b660a02733ac45ecc699e5eae3482e28eb8a3296e1110b"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-20-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-20-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "8ded12a79ce420557131d60821aaa324486291c9be0d6738a97191f335a303a5"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-20-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4659,
+          "sha256": "48b2b7d0e95274e0d706f0fe8208a95ec4473f03839486f2cf6d8ac4e7aecfe8"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-01-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-01-0000-4000-8000-000000000001/meta.json",
+          "size": 276,
+          "sha256": "682e29f780f74020aeb1acca95b29cbb19bd82ea7411361e1f1d60419462c2a5"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-01-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4270,
+          "sha256": "552f39dbc7cdd65281d9952e64bc30cfe4f77b028128a9e864f10117b40e2547"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-02-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-02-0000-4000-8000-000000000001/meta.json",
+          "size": 276,
+          "sha256": "55f4774f18369012a9717b42f7cf46249997ebefa75ad96e4dae9569829b9cab"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-02-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4522,
+          "sha256": "037af998c1200e275d4ff58fe07286354a0958968758051d12a88b13b4d16ded"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-03-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-03-0000-4000-8000-000000000001/meta.json",
+          "size": 276,
+          "sha256": "cafe3f9d41f8b4ae4342f7f6b27cf57bff325206ed416e5814115e6da28e6364"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-03-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4538,
+          "sha256": "7929f515a40cfdbfb1dedfc5aae80356a2408a54834187377654b07a12a1ec93"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/library.json",
+          "size": 399,
+          "sha256": "dba45663e3df06ee69b7ba95e27f1845b63e7252149d26f6daeffea2b623e96b"
+        },
+        {
+          "path": "samples/README.md",
+          "size": 1019,
+          "sha256": "b4368e7ded2f956aa2fa67e938dca90e7bcb7fb7ec09d68dfc2f98a126d5dc4a"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsBlockLibrary.arx",
+          "size": 418304,
+          "sha256": "43cde70d04b7c1b73d6d22f5058ba952eb4dfc1a8da2e423e9c2a1f3b1204b4b"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsCadCore.arx",
+          "size": 3813888,
+          "sha256": "2f59415d1560ea1301da1dc5e53101dbba2c8ef022c68daf2ce0c2c0c6c4e61b"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsCadLoader.arx",
+          "size": 82944,
+          "sha256": "37853ff9a30c16e1238caebea98d1d9197eba8c95d2cc53c62f48d59695b400a"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsCadLoader.ini",
+          "size": 269,
+          "sha256": "5c5b510a3f68cd50f621690d485fdbf5080440d1d9ad254a33c66be2950ffd15"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsCadLoader.lsp",
+          "size": 141,
+          "sha256": "34bc1342b6137c2ff94848cc7c1c1e759da9955f5bc620acee193be23e188b5a"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsScreenMenu.arx",
+          "size": 1257984,
+          "sha256": "491e516c68f1f65fa2434697d5037f39c8889284dee7f63fd8a3e5f38d6f5576"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsBlockLibrary.arx",
+          "size": 386560,
+          "sha256": "88bdf52f38e3d120af1c38b7b7b25970e3e0a5bb85c538b7963dbee12f301e12"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsCadCore.arx",
+          "size": 1772032,
+          "sha256": "7ccbc91c9d874e505923e4ab7e067c6251fccf9a89e11299408fa9d0354e2722"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsCadLoader.arx",
+          "size": 74752,
+          "sha256": "ce1bcc7ab12a1e2079c53bbd76a12a3b5e2a622f438c434a64bc582b43968c4a"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsCadLoader.ini",
+          "size": 269,
+          "sha256": "5c5b510a3f68cd50f621690d485fdbf5080440d1d9ad254a33c66be2950ffd15"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsCadLoader.lsp",
+          "size": 141,
+          "sha256": "34bc1342b6137c2ff94848cc7c1c1e759da9955f5bc620acee193be23e188b5a"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsScreenMenu.arx",
+          "size": 1178112,
+          "sha256": "05a00f2770d7b5fcd301a4d6e97c9896064344532e4adf7336fc3c3913d49ada"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsBlockLibrary.arx",
+          "size": 544256,
+          "sha256": "ac716a4bee85adef75de3ff70dd185a731b7452e12499af45c6f002839931623"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsCadCore.arx",
+          "size": 1757184,
+          "sha256": "9ee40f97fb233adc7301ff8c357d2515436048e0ade9766b0468da182f59d4c2"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsCadLoader.arx",
+          "size": 87040,
+          "sha256": "77a531069800ffcf4471eff0dfe614f71d0c38b8e8150ba7443437d66b633701"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsCadLoader.ini",
+          "size": 269,
+          "sha256": "5c5b510a3f68cd50f621690d485fdbf5080440d1d9ad254a33c66be2950ffd15"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsCadLoader.lsp",
+          "size": 141,
+          "sha256": "34bc1342b6137c2ff94848cc7c1c1e759da9955f5bc620acee193be23e188b5a"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsScreenMenu.arx",
+          "size": 1192960,
+          "sha256": "6a9c3b42a46a0b18525441b94a49b4e3b66984c503cb8842d02c84d139f2f40c"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsBlockLibrary.arx",
+          "size": 613888,
+          "sha256": "e9af489a38d41fb334cb55affa9031d58dfd4b833eab2f8515ae078dced0018e"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsCadCore.arx",
+          "size": 1757184,
+          "sha256": "8a67d0f8b1b265f330fa1350a9f5b61616870933f4558409bd8a971a52944f05"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsCadLoader.arx",
+          "size": 86528,
+          "sha256": "a69221e043ad2cd39819c54d71bcc2fc6e2d28e754672d52eebc07e0d23c94f2"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsCadLoader.ini",
+          "size": 269,
+          "sha256": "5c5b510a3f68cd50f621690d485fdbf5080440d1d9ad254a33c66be2950ffd15"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsCadLoader.lsp",
+          "size": 141,
+          "sha256": "34bc1342b6137c2ff94848cc7c1c1e759da9955f5bc620acee193be23e188b5a"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsScreenMenu.arx",
+          "size": 1194496,
+          "sha256": "7626fe71cfcec6a9dc1343e935b9f9ba2b6864dfd62154fda55c34a017c11f3f"
+        }
+      ]
+    },
+    "portableZip": {
+      "product": "FsBlockLibrary",
+      "productVersion": "1.0.0",
+      "releaseTag": "v1.0.0",
+      "package": "FsBlockLibrary-v1.0.0-portable-x64.zip",
+      "packageKind": "all-in-one-portable-zip",
+      "platform": "x64",
+      "acadVersions": [
+        "2019",
+        "2021",
+        "2025",
+        "2027"
+      ],
+      "buildConfigurations": [
+        "AC_2019_Release",
+        "AC_2021_Release",
+        "AC_2025_Release",
+        "AC_2027_Release"
+      ],
+      "entryPoint": "FsCadStarter.exe",
+      "userConfig": "%APPDATA%\\FsBlockLibrary\\FsBlockLibrary.ini when package root is not writable",
+      "sourceCommit": "bac659a",
+      "releaseRepository": "FeiSiPub/FsBlockLibraryReleases",
+      "generatedAtUtc": "2026-07-05T16:01:46.2242643Z",
+      "notes": [
+        "Portable Starter runtime for AutoCAD 2019-2027 x64.",
+        "Run FsCadStarter.exe from the extracted package root.",
+        "Runtime module directories intentionally use x64_{Configuration}.",
+        "This package intentionally excludes source code and debug artifacts."
+      ],
+      "files": [
+        {
+          "path": "使用说明.md",
+          "size": 7514,
+          "sha256": "5d3a6d20e11e7ca559160b482bd9f111b6978bbbfa28110dba85eb02449ed887"
+        },
+        {
+          "path": "Block/UserBlock/DefaultDevice.jpg",
+          "size": 7699,
+          "sha256": "9379fb282411410aeea0625c1c4461df69b0562caba57de467d0b4dd0bedfa67"
+        },
+        {
+          "path": "docs/user-guide.md",
+          "size": 7514,
+          "sha256": "5d3a6d20e11e7ca559160b482bd9f111b6978bbbfa28110dba85eb02449ed887"
+        },
+        {
+          "path": "FsBlockLibrary.ini",
+          "size": 429,
+          "sha256": "10aa3860e60941e752136725d64cb443dc3b60b7d6f153613d2130db734734bc"
+        },
+        {
+          "path": "FsCadStarter.exe",
+          "size": 11072000,
+          "sha256": "c0ab4bf41d4e8ec45cd2227cced7a215e132ac0ce904182110772210c7dd30ad"
+        },
+        {
+          "path": "FsCadStarter.ini",
+          "size": 810,
+          "sha256": "e1ec3ae3b6b61c87eeb7788a5c5408818ecf2e64f3243f27fcf12e204924ae38"
+        },
+        {
+          "path": "FsScreenMenu.ui.jsonc",
+          "size": 2732,
+          "sha256": "2d0142fe5c33225d4c16d2b552fe6efa1bf66563e43984f873daf72a28a2145d"
+        },
+        {
+          "path": "MenuIcon/insert.bmp",
+          "size": 1078,
+          "sha256": "e75d57c28e3e13f809a9017d8453298dd28ef5884baf9a7c8217f386cf1ea879"
+        },
+        {
+          "path": "MenuIcon/manage.bmp",
+          "size": 1078,
+          "sha256": "aaa11efa2d23050ccbb2f7a59d4ed9308ddeb60c6e67fae9d13b257d9fb811a5"
+        },
+        {
+          "path": "MenuIcon/README.md",
+          "size": 790,
+          "sha256": "fd5be46d790d9cb37db4cd3e2e1a32f202ec75715815382d541d887d88d69b53"
+        },
+        {
+          "path": "MenuIcon/update.bmp",
+          "size": 1078,
+          "sha256": "1127d2af50cf4cd77effb91dcf6b9ea01235b8b125e0e72e2a80c7b3c627b046"
+        },
+        {
+          "path": "MenuIcon/version.bmp",
+          "size": 1078,
+          "sha256": "79799c41c607f697767af635164c8c823afc70e4c1942c07ac2343c7877dd974"
+        },
+        {
+          "path": "README.md",
+          "size": 4795,
+          "sha256": "15c2b447ab7e9007e45a3f1fec9a4ef21bfbd048b4d7bb2e324a6f494ac13941"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/402115c4-ba67-43d0-a5ca-4529bf17da83/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/402115c4-ba67-43d0-a5ca-4529bf17da83/meta.json",
+          "size": 232,
+          "sha256": "231e63deedf0560d11422f58f6ddb6498c1a0b672337698794e697797fa3e489"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/402115c4-ba67-43d0-a5ca-4529bf17da83/thumb.jpg",
+          "size": 14454,
+          "sha256": "11d300af0acad32cfb577180b394d2dab6eb68fea20678acd2cc2d50108633e2"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/713e884e-95d7-45c2-9d54-1a357c695eae/block.dwg",
+          "size": 27501,
+          "sha256": "291d633da85db21735bf97d2de2fb1ca995e78ada9973159c41c1fa8978b389f"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/713e884e-95d7-45c2-9d54-1a357c695eae/meta.json",
+          "size": 234,
+          "sha256": "0188f4fab4b8b7906bd8fbabbda95ded74ee2aeffc817e6bceff978ef2b2cedb"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/713e884e-95d7-45c2-9d54-1a357c695eae/thumb.jpg",
+          "size": 14454,
+          "sha256": "570191349da0fcb8a3273afa2a7f52c79355db234cb9d4adfcaf19a49efe3e89"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-01-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-01-0000-4000-8000-000000000001/meta.json",
+          "size": 304,
+          "sha256": "bb1caa39e2a75cd0f3beab1a0cffcdabf12b21ad7446e648318b40832695456a"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-01-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4452,
+          "sha256": "2d573617fc8e3f6bf6bb1ffba769deda596c2439bf7e020990a9fbd7c98862a7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-02-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-02-0000-4000-8000-000000000001/meta.json",
+          "size": 304,
+          "sha256": "5e449b6c77fb53bc3c3cc12b77339d66f122ececd1a581037b346d2aef309f3a"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-02-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4690,
+          "sha256": "98b85787b1b3cad814b77d4eee28e9405cf157c43308bee7ee92abccec1d66b9"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-03-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-03-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "d69b8987d858c734569bc2e6b56737b96e672c756e97381ecac2cec455031610"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-03-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4708,
+          "sha256": "069859b1807bb1395825f5f653d4868ae76a3adb1ec04a9a35a49c860315db9c"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-04-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-04-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "5ca75031943a9a22aa75da8383f4b11c80f77b62a9d51d930a8a9fb25d97fda8"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-04-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4585,
+          "sha256": "362cea8387b7764cbdedd1809170d1d754e1fcc167580d27f47ec5a4dff67d43"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-05-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-05-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "bdcd0ee859c94bcb3ce1962440a0c13ef3f283ec06907eeaf49fb0e05cfbd9ed"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-05-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4745,
+          "sha256": "3bfc8ce0c5ec53dc1783d84056c463d21e45ced7f3ef7de5d81569d57c4fd1df"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-06-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-06-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "d1d4e91a24c04ca39ad67b33c1e49844186f0ae7d239084a92eae33bdecfbb9b"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-06-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4773,
+          "sha256": "67ce49d7a5e6ac09e9876e2906dc1c4a4d883e13000d3ce751a32fb3c16d6cee"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-07-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-07-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "2478b8148f39852b0772f2a03986d1d16af085f09c2f923bdd53a5ace39190b0"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-07-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4508,
+          "sha256": "c0e9c51eb9e3408903ddea7a2f3505dd56fb566e56762ce84e4f6647493491eb"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-08-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-08-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "6f5dcfc96c2c447824a076a35c13cbd769b0eec246d774ba448cb6da3f6c7690"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-08-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4749,
+          "sha256": "94f9bed4ad95301ca735a0cb6522cfcd37d21cc84676ed3c00054ea6f48b7a50"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-09-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-09-0000-4000-8000-000000000001/meta.json",
+          "size": 277,
+          "sha256": "795dc58cf8c3ea73d6faf45697aaccd0062fc5053524c20c0870529faed94ba2"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-09-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4733,
+          "sha256": "3ee9a54390b9d0b530e48bdd72558b5a9ca3a3d06afba1f3dd6eedbfd6b52202"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-10-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-10-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "29561cc626468dc0c7a42542b584664a734aadc04051df061f3252771d615073"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-10-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4348,
+          "sha256": "72f726cae3140b628be9243507ebef31156048f9478af699d67bc73011958e54"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-11-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-11-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "6374794c73a9d86030fdc0bc31481b18990f122e9f19e253cb565bc6f21e76bb"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-11-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4141,
+          "sha256": "5c6a4e9f08017b5486fd4f5ac51e1469105251dc6432d5ae431660b30fa507fb"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-12-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-12-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "67f6563b5baf87ed0e1f19cf172abb89abafd5d1fd9f311af7e6205b1a5683fc"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-12-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4377,
+          "sha256": "3ede63eec643bd2a2f1647f2a974d52c33c9de913cd32edc6e1aa3be42ae8d72"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-13-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-13-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "d9576c9fda961a3b152dc96d142dd649f430d26d0c6f39e92dfabe294d5e5d73"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-13-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4406,
+          "sha256": "cc3fd110dbd728fc39307c7c7493ad224232c8741250422a4cf6283910783c08"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-14-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-14-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "f1b3a225ffb0dcad0d79af9c2c3b41d6933f2df9b88e5c4518a5cd76f6981733"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-14-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4278,
+          "sha256": "18c49b0fa77c091eb3eb81faacd234b0acde994e1341d5c1e47d9486c49e31a5"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-15-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-15-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "a97b73c680eb3774013ae5c6af7bdcaf1fe594aa26a55691200fccdbedf52c76"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-15-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4426,
+          "sha256": "583092b0ba71c5db1b57eca510a7481934716e54c3c82c03bc43e786344ebde2"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-16-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-16-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "88e4315cc42124c10e05efef56e04cf8eed5eda50ab6e84c955887234fd9f6a9"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-16-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4462,
+          "sha256": "068ae49cec25c856609d1556bbd812838d6556ba2dd2235cd81e200e55ee8b70"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-17-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-17-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "8112b632539f9747fec2866896b9ffb82e9e4011593b907c3cdcb0c3aa000116"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-17-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4192,
+          "sha256": "b2d5b5e57ae8617e406b9588bedb43154138d691214c28742de41174a5942298"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-18-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-18-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "ba112d08fa9066dfa77e8f7e7e4ec5510d7063b709b4ad89c1d0d4f26f9918f1"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-18-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4449,
+          "sha256": "8ba0c7ffd61f56a415df12340cb55f89be6005f0301eafc5dec2805dd5a6ac8d"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-19-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-19-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "d35d4d370d5d7fecefb361076dc57b9cb43b1b7fd0405ddfaaeb203bb073eb00"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-19-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4436,
+          "sha256": "1037c08f0109e88518b660a02733ac45ecc699e5eae3482e28eb8a3296e1110b"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-20-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-20-0000-4000-8000-000000000001/meta.json",
+          "size": 278,
+          "sha256": "8ded12a79ce420557131d60821aaa324486291c9be0d6738a97191f335a303a5"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-a-20-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4659,
+          "sha256": "48b2b7d0e95274e0d706f0fe8208a95ec4473f03839486f2cf6d8ac4e7aecfe8"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-01-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-01-0000-4000-8000-000000000001/meta.json",
+          "size": 276,
+          "sha256": "682e29f780f74020aeb1acca95b29cbb19bd82ea7411361e1f1d60419462c2a5"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-01-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4270,
+          "sha256": "552f39dbc7cdd65281d9952e64bc30cfe4f77b028128a9e864f10117b40e2547"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-02-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-02-0000-4000-8000-000000000001/meta.json",
+          "size": 276,
+          "sha256": "55f4774f18369012a9717b42f7cf46249997ebefa75ad96e4dae9569829b9cab"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-02-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4522,
+          "sha256": "037af998c1200e275d4ff58fe07286354a0958968758051d12a88b13b4d16ded"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-03-0000-4000-8000-000000000001/block.dwg",
+          "size": 26697,
+          "sha256": "355cf254fadc13d5c7e44c64ea87306e3a134850d7f67aab5097d922333488f7"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-03-0000-4000-8000-000000000001/meta.json",
+          "size": 276,
+          "sha256": "cafe3f9d41f8b4ae4342f7f6b27cf57bff325206ed416e5814115e6da28e6364"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/blocks/test-b-03-0000-4000-8000-000000000001/thumb.jpg",
+          "size": 4538,
+          "sha256": "7929f515a40cfdbfb1dedfc5aae80356a2408a54834187377654b07a12a1ec93"
+        },
+        {
+          "path": "samples/FsBlockLibraryData/library.json",
+          "size": 399,
+          "sha256": "dba45663e3df06ee69b7ba95e27f1845b63e7252149d26f6daeffea2b623e96b"
+        },
+        {
+          "path": "samples/README.md",
+          "size": 1019,
+          "sha256": "b4368e7ded2f956aa2fa67e938dca90e7bcb7fb7ec09d68dfc2f98a126d5dc4a"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsBlockLibrary.arx",
+          "size": 418304,
+          "sha256": "43cde70d04b7c1b73d6d22f5058ba952eb4dfc1a8da2e423e9c2a1f3b1204b4b"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsCadCore.arx",
+          "size": 3813888,
+          "sha256": "2f59415d1560ea1301da1dc5e53101dbba2c8ef022c68daf2ce0c2c0c6c4e61b"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsCadLoader.arx",
+          "size": 82944,
+          "sha256": "37853ff9a30c16e1238caebea98d1d9197eba8c95d2cc53c62f48d59695b400a"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsCadLoader.ini",
+          "size": 269,
+          "sha256": "5c5b510a3f68cd50f621690d485fdbf5080440d1d9ad254a33c66be2950ffd15"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsCadLoader.lsp",
+          "size": 141,
+          "sha256": "34bc1342b6137c2ff94848cc7c1c1e759da9955f5bc620acee193be23e188b5a"
+        },
+        {
+          "path": "x64_AC_2019_Release/FsScreenMenu.arx",
+          "size": 1257984,
+          "sha256": "491e516c68f1f65fa2434697d5037f39c8889284dee7f63fd8a3e5f38d6f5576"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsBlockLibrary.arx",
+          "size": 386560,
+          "sha256": "88bdf52f38e3d120af1c38b7b7b25970e3e0a5bb85c538b7963dbee12f301e12"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsCadCore.arx",
+          "size": 1772032,
+          "sha256": "7ccbc91c9d874e505923e4ab7e067c6251fccf9a89e11299408fa9d0354e2722"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsCadLoader.arx",
+          "size": 74752,
+          "sha256": "ce1bcc7ab12a1e2079c53bbd76a12a3b5e2a622f438c434a64bc582b43968c4a"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsCadLoader.ini",
+          "size": 269,
+          "sha256": "5c5b510a3f68cd50f621690d485fdbf5080440d1d9ad254a33c66be2950ffd15"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsCadLoader.lsp",
+          "size": 141,
+          "sha256": "34bc1342b6137c2ff94848cc7c1c1e759da9955f5bc620acee193be23e188b5a"
+        },
+        {
+          "path": "x64_AC_2021_Release/FsScreenMenu.arx",
+          "size": 1178112,
+          "sha256": "05a00f2770d7b5fcd301a4d6e97c9896064344532e4adf7336fc3c3913d49ada"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsBlockLibrary.arx",
+          "size": 544256,
+          "sha256": "ac716a4bee85adef75de3ff70dd185a731b7452e12499af45c6f002839931623"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsCadCore.arx",
+          "size": 1757184,
+          "sha256": "9ee40f97fb233adc7301ff8c357d2515436048e0ade9766b0468da182f59d4c2"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsCadLoader.arx",
+          "size": 87040,
+          "sha256": "77a531069800ffcf4471eff0dfe614f71d0c38b8e8150ba7443437d66b633701"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsCadLoader.ini",
+          "size": 269,
+          "sha256": "5c5b510a3f68cd50f621690d485fdbf5080440d1d9ad254a33c66be2950ffd15"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsCadLoader.lsp",
+          "size": 141,
+          "sha256": "34bc1342b6137c2ff94848cc7c1c1e759da9955f5bc620acee193be23e188b5a"
+        },
+        {
+          "path": "x64_AC_2025_Release/FsScreenMenu.arx",
+          "size": 1192960,
+          "sha256": "6a9c3b42a46a0b18525441b94a49b4e3b66984c503cb8842d02c84d139f2f40c"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsBlockLibrary.arx",
+          "size": 613888,
+          "sha256": "e9af489a38d41fb334cb55affa9031d58dfd4b833eab2f8515ae078dced0018e"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsCadCore.arx",
+          "size": 1757184,
+          "sha256": "8a67d0f8b1b265f330fa1350a9f5b61616870933f4558409bd8a971a52944f05"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsCadLoader.arx",
+          "size": 86528,
+          "sha256": "a69221e043ad2cd39819c54d71bcc2fc6e2d28e754672d52eebc07e0d23c94f2"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsCadLoader.ini",
+          "size": 269,
+          "sha256": "5c5b510a3f68cd50f621690d485fdbf5080440d1d9ad254a33c66be2950ffd15"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsCadLoader.lsp",
+          "size": 141,
+          "sha256": "34bc1342b6137c2ff94848cc7c1c1e759da9955f5bc620acee193be23e188b5a"
+        },
+        {
+          "path": "x64_AC_2027_Release/FsScreenMenu.arx",
+          "size": 1194496,
+          "sha256": "7626fe71cfcec6a9dc1343e935b9f9ba2b6864dfd62154fda55c34a017c11f3f"
+        }
+      ]
+    }
+  }
+}
